@@ -8,8 +8,8 @@ pkgs.stdenv.mkDerivation rec {
   name = "nixpkgs-fmt";
 
   src = pkgs.fetchurl {
-    url = "https://github.com/justinwoo/my-nixpkgs-fmt/releases/download/20190908/nixpkgs-fmt.tar.gz";
-    sha256 = "072vdnjn9f08j6364zjif5zybj5qcpwdcrvrmlrg8ikimj37xw8i";
+    url = "https://github.com/justinwoo/my-nixpkgs-fmt/releases/download/20190923/nixpkgs-fmt.tar.gz";
+    sha256 = "1p3jwj0126n00vpk6jvdbyz2kkggl1q63crn1a60a9wyw64g09l3";
   };
 
   buildInputs = [ pkgs.glibc ];
