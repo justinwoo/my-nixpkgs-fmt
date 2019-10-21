@@ -13,8 +13,8 @@ import (
   pkgs.fetchFromGitHub {
     owner = "justinwoo";
     repo = "my-nixpkgs-fmt";
-    rev = "44fdb18c25bc1de31fb23f49bc51d03bb70718f6";
-    sha256 = "17c5wazag1csr9i0kh5qglv1v007q05bq71dx8cbdsvm6vs71k0l";
+    rev = "4496a67817e3dc2f40c60db971a1d503b353415c";
+    sha256 = "1z9k1jlbqlfb2wgqlvpqvlrxwpz3j9syinx6f8705z34q1yjnxnb";
   }
 ) {}
 ```
