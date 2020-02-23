@@ -1,15 +1,13 @@
 { pkgs ? import <nixpkgs> {} }:
-
 let
   dynamic-linker = pkgs.stdenv.cc.bintools.dynamicLinker;
-
 in
 pkgs.stdenv.mkDerivation rec {
   name = "nixpkgs-fmt";
 
   src = pkgs.fetchurl {
-    url = "https://github.com/justinwoo/my-nixpkgs-fmt/releases/download/2020-01-17/nixpkgs-fmt.tar.gz";
-    sha256 = "0fjywlw2n3gzm01jrc7xf65h2813lrzg8zcry9n0098dgd64c3ji";
+    url = "https://github.com/justinwoo/my-nixpkgs-fmt/releases/download/2020-02-23/nixpkgs-fmt.tar.gz";
+    sha256 = "0lz2rzmkvmjk8qim1m6ckr9mchi2p7kcbpwvvcx61zn8lym3xpj8";
   };
 
   buildInputs = [ pkgs.glibc ];
